@@ -34,11 +34,11 @@
             <string>TSLocationManager requires background location tracking</string>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="UIBackgroundModes">
+        <!--config-file target="*-Info.plist" parent="UIBackgroundModes">
             <array>
                 <string>location</string>
             </array>
-        </config-file>
+        </config-file-->
 
         <config-file target="config.xml" parent="/*">
             <feature name="BackgroundGeolocation">
